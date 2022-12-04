@@ -1,0 +1,29 @@
+  <nav id="main_menue"> 
+        <div class="inner_menue container">
+           <ul id='nav'>
+               <li><a href="">HOMEPAGE</a></li>
+               <li><a href="">STYLE DEMO</a></li>
+               <li><a href="">FULL WIDTH</a></li>
+               <li><a href="">DROPDOWN</a>
+                 <ul >
+                    <li><a href="">DROPDOWN</a></li>
+                    <li><a href="">DROPDOWN</a></li>
+                    <li><a href="">DROPDOWN</a>
+                        <ul >
+                            <li><a href="">DROPDOWN</a></li>
+                            <li><a href="">DROPDOWN</a></li>
+                            <li><a href="">DROPDOWN</a></li>
+                            <li><a href="">DROPDOWN</a></li>
+                            <li><a href="">DROPDOWN</a></li>
+                         </ul>
+                    </li>
+                    <li><a href="">DROPDOWN</a></li>
+                    <li><a href="">DROPDOWN</a></li>
+                 </ul>
+               </li>
+               <li><a href="">GLARREY</a></li>
+               <li><a href="">LINK TEXT</a></li>
+               <li><a href="">LONG LINK TEXT</a></li>
+           </ul>
+        </div>
+       </nav>

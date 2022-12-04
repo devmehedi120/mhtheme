@@ -1,0 +1,21 @@
+/*=========================
+Theme Name:MH tech
+Theme URI: #
+Version: 1.0.1
+Author: Mehedi Hasan
+Author URI: http://www.mhbd.com
+Text Domain: mehedihasan
+Requires at least: 5.2
+Tested up to: 5.9
+Requires PHP: 5.6
+Description: We are learning wordpress theme  customization
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-patterns, block-styles, wide-blocks, accessibility-ready
+Author: the WordPress team
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+===========================*/
+
+body{
+    background-color: aqua;
+}
