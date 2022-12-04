@@ -649,3 +649,13 @@ Sidebar Area Style
     padding: 10px 20px;
     font-family:'Oswald', sans-serif;  ;
   }
+
+  /*
+  Slider style
+  */
+
+ #slider_area img{
+  width: 100%;
+  height: auto;
+  margin: 25px auto;
+ }
