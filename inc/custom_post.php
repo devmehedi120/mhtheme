@@ -28,6 +28,7 @@ function custom_slider(){
         'supports' => array('title', 'thumbnail', 'editor', 'excerpt'),
         )
       );
+
       add_theme_support('post-thumbnails');
   }
   

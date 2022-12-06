@@ -9,10 +9,11 @@
  add_theme_support('title-tag');
 
  //thumbnail area
- add_theme_support('post-thumbnails' , array('page', 'post', 'service' ,'slider'));
+ add_theme_support('post-thumbnails' , array('page', 'post', 'service' ));
+ add_image_size('slider', 1080, 500, true);
  add_image_size('post-thumbnails', 970, 350, true);  
  add_image_size('service', 400, 200, true); 
- add_image_size('slider',  700, true); 
+ add_image_size('slider', 1200, 700, true); 
 
  //excerpt to 40 word
 

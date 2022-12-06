@@ -64,3 +64,40 @@ function mh_service_shortcode($atts){
 }
 
 add_shortcode('service', 'mh_service_shortcode');
+
+//Slider Shortcode 
+
+function mh_slider_shortcode($atts){
+    ob_start();
+    // query_posts('post_type=slider&post_status=publish&posts_per_page=3&order=ASC&paged='. get_query_var('post'));
+    $query=  new WP_Query(array(
+        'post_type'=> 'slider',
+        'post_status'=> 'publish',
+        'post_per_page'=>3,
+       ' order'=>'ASC',
+       'orderby'=>'title',
+
+    ));
+    if ($query-> have_posts()){?>
+   <section id="slider_area">
+    <div class="slider">
+    
+        <?php  while($query->have_posts()): $query->the_post();?>
+        <div>
+          <?php echo the_post_thumbnail('slider') ?>
+        </div>
+
+        <?php 
+          endwhile; wp_reset_postdata();
+        ?>
+   </div>
+ </section>
+
+    <?php  $myvariable = ob_get_clean();
+    return $myvariable;
+
+    }
+}
+
+add_shortcode('slider', 'mh_slider_shortcode');
+
