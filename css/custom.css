@@ -674,3 +674,22 @@ Sidebar Area Style
   width: 100%;
   margin: 25px auto;
  }
+
+ .blog_area .post_details i{
+  font-size: 20px;
+  color: #ea1a70;
+  transition: 0.4s ease;
+
+ }
+ .blog_area .post_details i:hover{
+  
+  color: #91b30b;
+
+ }
+
+ .blog_area .post_details p span{
+  color: #1a39ea;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  text-transform: lowercase;
+ }

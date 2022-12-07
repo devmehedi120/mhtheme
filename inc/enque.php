@@ -9,6 +9,7 @@ function mh_css_js_file_calling(){
     wp_enqueue_style('bx_slider');
     wp_enqueue_style('custom');
    
+   
     //jquery
     wp_enqueue_script('jquery');
     wp_enqueue_script('bootstrap', get_template_directory_uri().'/js/bootstrap.js', array(), '5.2.2' ,'true' );
@@ -22,6 +23,7 @@ function mh_css_js_file_calling(){
    
     function mh_add_google_font(){
        wp_enqueue_style('mh_google_font', 'https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap', false);
+       wp_enqueue_style('mh_font_awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css', false);
     }
    
    add_action('wp_enqueue_scripts', 'mh_add_google_font');
