@@ -28,3 +28,6 @@ include_once('inc/widget_register.php');
 
 //Shortcode_register
 include_once('inc/shortcode.php');
+
+//woocommerce
+include_once('inc/woocom.php');

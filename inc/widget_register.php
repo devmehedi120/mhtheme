@@ -16,7 +16,7 @@ function mh_widget_register(){
     ));
     register_sidebar(array(
         'name'        =>     __('Footer 1 ','mehedihasan'),
-        'id'          =>     'Footer-1',
+        'id'          =>     'footer-1',
         'description' =>    __('apears in the footer in blog page and other page', 'mehedihasan'),  
         'before_widget' =>  '<div class="child_sidebar">',
         'after_widget'=>    '</div>',
