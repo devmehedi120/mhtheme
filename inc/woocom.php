@@ -15,3 +15,8 @@ function mh_add_woocommerce_support() {
 }
 
 add_action( 'after_setup_theme', 'mh_add_woocommerce_support' );
+
+
+remove_action('woocommerce_sidebar','woocommerce_get_sidebar',10);
+
+
